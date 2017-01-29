@@ -4,3 +4,39 @@
       height: 500px;
       margin: auto;
 }
+
+#myCarousel {
+	padding-top: 50px;
+}
+
+/** Navbar **/
+
+.navbar-inverse {
+	display: flex;
+	justify-content: center;
+	align-content: space-around;
+	height: 70px;
+	margin: 0 15px 0 15px;
+}
+
+.navbar-nav {
+	padding-top: 10px;
+}
+
+/** Sections **/
+
+#home-section {
+	height: 980px;
+}
+
+#destination-section {
+	height: 980px;
+}
+
+#budget-section {
+	height: 980px;
+}
+
+#about-section {
+	height: 980px;
+}
