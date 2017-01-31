@@ -12,12 +12,13 @@ var sneakyArticleSchema = mongoose.schema({
     time: time,
     content: string,
     rating: int,
+    publish: bool,
     comments:{
 	author: string,
 	date: date,
 	time: time,
 	text: string
-    }
+    },
     tags:{
 	value: array
     }
