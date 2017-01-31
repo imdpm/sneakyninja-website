@@ -30,5 +30,5 @@ var sneakyNinjaSchema = mongoose.schema({
     authorization:  string
 });
 
-var sneakyArticle = ('sneakyArticle', sneakyArticleSchema);
-var sneakyNinja = ('sneakyNinja', sneakyNinjaSchema);
+var sneakyArticle = mongoose.model('sneakyArticle', sneakyArticleSchema);
+var sneakyNinja = mongoose.model('sneakyNinja', sneakyNinjaSchema);
